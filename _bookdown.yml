@@ -1,0 +1,5 @@
+book_filename: "Analisis_de_Regresion"
+language:
+  ui:
+    chapter_name: "Capítulo "
+delete_merged_file: true

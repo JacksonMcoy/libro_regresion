@@ -1,0 +1,21 @@
+--- 
+title: "Análisis de Regresión con R"
+author: |
+  | Mauricio Mazo Lopera
+  | Freddy Hernández Barajas
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "Este libro contiene explicaciones de como realizar análisis de regresión con R"
+---
+
+# Prerequisitos
+
+Este libro está destinado para estudiantes de ingeniería y estadística que deseen aprender la teoría sobre modelos de regresión y la forma de aplicarlos por medio de lenguage de programación \proglang{R}.
+
+
