@@ -1,3 +1,0 @@
-# Regresión lineal simple
-
-Here is a review of existing methods.

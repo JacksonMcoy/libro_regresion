@@ -1,0 +1,42 @@
+# Regresión lineal simple {#rls}
+
+El modelo de regresión lineal simple está dado por:
+
+$y_i=\beta_0+\beta_1 x_i + \epsilon_i$
+
+pero también se puede escribir como en latex con \begin equation y \end equation así:
+
+\begin{equation}
+y_i=\beta_0+\beta_1 x_i + \epsilon_i
+\end{equation}
+
+La ventaja del segundo método es que nos queda con numeración.
+
+Podemos incluir código de \proglang{R} con un chunk así:
+
+```{r}
+x <- rnorm(n=100)
+mean(x)
+```
+
+Podemos agregar figuras directamente así:
+
+```{r prueba1, fig.width=10, fig.height=5, fig.cap='Hola Mauricio, esto es una prueba.'}
+y <- rnorm(100)
+plot(density(y), lwd=2, col='blue3')
+```
+
+## Ejemplo {-}
+Aquí va el texto del ejemplo.
+
+## Ejemplo {-}
+Aquí va el texto del ejemplo.
+
+```{block2, type='rmdnote'}
+Mauro, los ejemplos no se numeran mientras que las secciones si. Si usted coloca {-} en una sección no aparecerá número.
+```
+
+
+
+
+

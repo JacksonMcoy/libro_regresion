@@ -1,13 +1,17 @@
 bookdown::gitbook:
-  css: style.css
+  css: css/style.css
   config:
     toc:
+      collapse: none
       before: |
-        <li><a href="./">Analisis de Regresion con R</a></li>
+        <li><a href="./">analisis_de_regresion_con_R</a></li>
       after: |
-        <li><a href="https://github.com/fhernanb/libro_regresion" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/fhernanb/libro_regresion/edit/master/%s
-    download: ["pdf", "epub"]
+        <li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
+    download: [pdf, epub]
+    edit: https://github.com/yihui/bookdown-crc/edit/master/%s
+    sharing:
+      github: yes
+      facebook: no
 bookdown::pdf_book:
   includes:
     in_header: latex/preamble.tex
@@ -17,10 +21,11 @@ bookdown::pdf_book:
   dev: "cairo_pdf"
   latex_engine: xelatex
   citation_package: natbib
+  template: null
   pandoc_args: --top-level-division=chapter
   toc_depth: 3
   toc_unnumbered: no
   toc_appendix: yes
   quote_footer: ["\\VA{", "}{}"]
 bookdown::epub_book:
-  stylesheet: style.css
+  stylesheet: css/style.css
