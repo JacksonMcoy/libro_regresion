@@ -2,7 +2,7 @@
 
 # Introducción {#intro}
 
-Aquí va la introducción del libro.
+Aquí va la introducción del libro. Ensayo 1
 
 ```{block2, type='rmdwarning'}
 Mauro, yo le recomiendo que haga cambios pequeños y luego build el libro para que pueda ver el efecto y así detectar los errores más fácil.
