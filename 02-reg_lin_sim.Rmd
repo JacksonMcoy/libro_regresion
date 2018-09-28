@@ -1,23 +1,13 @@
 # Regresión lineal simple {#rls}
 
-El modelo de regresión lineal simple está dado por:
+Considere una muestra de tamaño $n$, el modelo de regresión lineal simple para el $i$-ésimo individuo está dado por:
+$y_i=\beta_0+\beta_1 x_i + e_i,\ \ \text{para $i=1, \ldots, n$}$
 
-$y_i=\beta_0+\beta_1 x_i + \epsilon_i$
+donde los supuestos del modelo son
+- $e_i$ tiene una distribución normal para cada $i=1, \ldots, n$
+- $E(e_i)=0$ y $Var(e_i)=\sigma^2$, de donde $E(Y_i)=\beta_0+\beta_1X_i$ y $Var(Y_i)=\sigma^2$ 
+- Los $e_1, e_2, \ldots, e_n$ son independientes.
 
-pero también se puede escribir como en latex con \begin equation y \end equation así:
-
-\begin{equation}
-y_i=\beta_0+\beta_1 x_i + \epsilon_i
-\end{equation}
-
-La ventaja del segundo método es que nos queda con numeración.
-
-Podemos incluir código de \proglang{R} con un chunk así:
-
-```{r}
-x <- rnorm(n=100)
-mean(x)
-```
 
 Podemos agregar figuras directamente así:
 
