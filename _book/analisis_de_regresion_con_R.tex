@@ -229,7 +229,7 @@
 \title{Análisis de Regresión con R}
 \author{Mauricio Mazo Lopera\\
 Freddy Hernández Barajas}
-\date{2018-08-25}
+\date{2018-10-01}
 
 \let\BeginKnitrBlock\begin \let\EndKnitrBlock\end
 \begin{document}
@@ -383,7 +383,7 @@ webpage: \url{https://fhernanb.github.io/}
 
 \chapter{Introducción}\label{intro}
 
-Aquí va la introducción del libro.
+Aquí va la introducción del libro. Ensayo 1
 
 \BeginKnitrBlock{rmdwarning}
 Mauro, yo le recomiendo que haga cambios pequeños y luego build el libro
@@ -392,31 +392,22 @@ para que pueda ver el efecto y así detectar los errores más fácil.
 
 \chapter{Regresión lineal simple}\label{rls}
 
-El modelo de regresión lineal simple está dado por:
+Considere una muestra de tamaño \(n\), el modelo de regresión lineal
+simple para el \(i\)-ésimo individuo está dado por:
 
-\(y_i=\beta_0+\beta_1 x_i + \epsilon_i\)
+\[y_i=\beta_0+\beta_1 x_i + e_i,\ \ \text{para $i=1, \ldots, n$}\]
 
-pero también se puede escribir como en latex con \textbackslash{}begin
-equation y \textbackslash{}end equation así:
+donde los supuestos del modelo son:
 
-\begin{equation}
-y_i=\beta_0+\beta_1 x_i + \epsilon_i
-\end{equation}
-
-La ventaja del segundo método es que nos queda con numeración.
-
-Podemos incluir código de \proglang{R} con un chunk así:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{x <-}\StringTok{ }\KeywordTok{rnorm}\NormalTok{(}\DataTypeTok{n=}\DecValTok{100}\NormalTok{)}
-\KeywordTok{mean}\NormalTok{(x)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## [1] -0.0583
-\end{verbatim}
+\begin{itemize}
+\item
+  \(e_i\) tiene una distribución normal para cada \(i=1, \ldots, n\)
+\item
+  \(E(e_i)=0\) y \(Var(e_i)=\sigma^2\), de donde
+  \(E(Y_i)=\beta_0+\beta_1X_i\) y \(Var(Y_i)=\sigma^2\)
+\item
+  Los \(e_1, e_2, \ldots, e_n\) son independientes.
+\end{itemize}
 
 Podemos agregar figuras directamente así:
 
@@ -463,7 +454,7 @@ Se pueden incluir tablas con datos de la siguiente manera.
 
 \begin{table}
 
-\caption{\label{tab:unnamed-chunk-10}A table of the first 10 rows of the mtcars data.}
+\caption{\label{tab:unnamed-chunk-9}A table of the first 10 rows of the mtcars data.}
 \centering
 \begin{tabular}[t]{lrrrrrrrr}
 \toprule
