@@ -28,7 +28,7 @@ lapply(c(), function(pkg) {
 })
 ```
 
-```{r echo=FALSE, out.width="33%"}
+```{r echo=FALSE, out.width="33%", fig.align='center'}
 knitr::include_graphics("images/cover.png")
 ```
 

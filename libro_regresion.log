@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6210 64-bit) (preloaded format=xelatex 2017.1.16)  5 APR 2019 17:02
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6210 64-bit) (preloaded format=xelatex 2017.1.16)  5 APR 2019 17:14
 entering extended mode
-**./bookdown-demo.tex
-(bookdown-demo.tex
+**./libro_regresion.tex
+(libro_regresion.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 (krantz.cls
@@ -916,9 +916,9 @@ Package color Info: Redefining color shadecolor on input line 150.
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write4
-\openout4 = `bookdown-demo.idx'.
+\openout4 = `libro_regresion.idx'.
 
-Writing index file bookdown-demo.idx
+Writing index file libro_regresion.idx
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks29
@@ -930,13 +930,13 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@postskip=\skip92
 \thm@headsep=\skip93
 \dth@everypar=\toks34
-) (bookdown-demo.aux
+) (libro_regresion.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 )
-\openout1 = `bookdown-demo.aux'.
+\openout1 = `libro_regresion.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 250.
 LaTeX Font Info:    ... okay on input line 250.
@@ -1026,9 +1026,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 250.
 LaTeX Info: Redefining \pageref on input line 250.
 LaTeX Info: Redefining \nameref on input line 250.
-(bookdown-demo.out) (bookdown-demo.out)
+(libro_regresion.out) (libro_regresion.out)
 \@outlinefile=\write5
-\openout5 = `bookdown-demo.out'.
+\openout5 = `libro_regresion.out'.
 
 LaTeX Info: Redefining \. on input line 250.
 LaTeX Info: Redefining \% on input line 250.
@@ -1153,7 +1153,7 @@ Underfull \hbox (badness 10000) detected at line 273
 []
  []
 
-(bookdown-demo.toc
+(libro_regresion.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
@@ -1170,46 +1170,25 @@ Package spanish Warning: Replacing `EU1/lmr/bx/sc' by
 Package spanish Warning: Replacing `EU1/lmr/bx/sc' by 
 (spanish)                faked small caps on input line 5.
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 6.
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+
+Package spanish Warning: Replacing `EU1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 6.
+
+
+Package spanish Warning: Replacing `EU1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 7.
+
+
+Package spanish Warning: Replacing `EU1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 8.
+
+
+Package spanish Warning: Replacing `EU1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 9.
+
 )
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmr' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 6.
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 6.
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 6.
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 6.
-LaTeX Font Info:    Try loading font information for U+msa on input line 6.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (C:\Users\fhernanb\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 6.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (C:\Users\fhernanb\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-))
 \tf@toc=\write6
-\openout6 = `bookdown-demo.toc'.
+\openout6 = `libro_regresion.toc'.
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1301,14 +1280,51 @@ Underfull \hbox (badness 10000) detected at line 275
 
 Package hyperref Warning: bookmark level for unknown fm defaults to 0.
 
-(bookdown-demo.lot
+(libro_regresion.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 5.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 5.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 5.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 5.
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (C:\Users\fhernanb\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (C:\Users\fhernanb\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+))
 \tf@lot=\write7
-\openout7 = `bookdown-demo.lot'.
+\openout7 = `libro_regresion.lot'.
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1397,17 +1413,16 @@ Underfull \hbox (badness 10000) detected at line 276
 []
  []
 
-(bookdown-demo.lof
+(libro_regresion.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 )
 \tf@lof=\write8
-\openout8 = `bookdown-demo.lof'.
+\openout8 = `libro_regresion.lof'.
 
-File: images/cover.png Graphic file (type QTm)
-<use  "images/cover.png" >
+
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
@@ -1415,6 +1430,88 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [7
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[8
+
+]
+Underfull \vbox (badness 10000) detected at line 277
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 277
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 277
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 277
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 277
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 277
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 277
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 277
+[]
+ []
+
+File: images/cover.png Graphic file (type QTm)
+<use  "images/cover.png" >
+
+Package hyperref Warning: Suppressing empty link on input line 288.
+
+
+Package hyperref Warning: Suppressing empty link on input line 289.
+
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 305
 .
 ("C:\Program Files\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
@@ -1422,17 +1519,237 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `EU1/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `EU1/lmtt/b/n' tried instead on input line 306.
-File: bookdown-demo_files/figure-latex/nice-fig-1.pdf Graphic file (type QTm)
-<use  "bookdown-demo_files/figure-latex/nice-fig-1.pdf" > (bookdown-demo.bbl
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-[8]
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-[9]
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[9
+
+]
+LaTeX Info: Redefining \. on input line 331.
+LaTeX Info: Redefining \% on input line 331.
 [10]
+Underfull \vbox (badness 10000) detected at line 331
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 331
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 331
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 331
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 331
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 331
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 331
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 331
+[]
+ []
+
+
+Package hyperref Warning: Suppressing empty link on input line 334.
+
+
+Package hyperref Warning: Suppressing empty link on input line 336.
+
+File: libro_regresion_files/figure-latex/nice-fig-1.pdf Graphic file (type QTm)
+
+<use  "libro_regresion_files/figure-latex/nice-fig-1.pdf" >
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[11
+
+
+]
+LaTeX Info: Redefining \. on input line 410.
+LaTeX Info: Redefining \% on input line 410.
+[12]
+Underfull \vbox (badness 10000) detected at line 410
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 410
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 410
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 410
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 410
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 410
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 410
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 410
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[13
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[14
+
+]
+Underfull \vbox (badness 10000) detected at line 414
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 414
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 414
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 414
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 414
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 414
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 414
+ []
+
+
+Overfull \hbox (469.50502pt too wide) detected at line 414
+[]
+ []
+
+(libro_regresion.bbl
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[15
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (469.50502pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[16
+
+]
 Underfull \vbox (badness 10000) detected at line 1
  []
 
@@ -1478,8 +1795,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[11
-
+[17
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1518,12 +1834,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[12
+[18
 
-] (bookdown-demo.ind)
+] (libro_regresion.ind)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 424.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 424.
-(bookdown-demo.aux
+(libro_regresion.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 LaTeX Info: Redefining \. on input line 28.
@@ -1536,12 +1852,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 27896 strings out of 428408
- 480841 string characters out of 3160621
- 554287 words of memory out of 3000000
+ 27897 strings out of 428408
+ 480941 string characters out of 3160621
+ 551106 words of memory out of 3000000
  31004 multiletter control sequences out of 15000+200000
- 16391 words of font info for 48 fonts, out of 3000000 for 9000
+ 16399 words of font info for 49 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,8n,92p,10413b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,8n,92p,10415b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bookdown-demo.pdf (12 pages).
+Output written on libro_regresion.pdf (18 pages).
