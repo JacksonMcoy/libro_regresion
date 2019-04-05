@@ -11,11 +11,22 @@ link-citations: yes
 colorlinks: yes
 lot: yes
 lof: yes
+description: "Este es un libro de apoyo al curso de análisis de regresión."
 github-repo: fhernanb/libro_regresion
-description: "Este es un libro de apoyo al curso de análisis de regresión"
+cover-image: images/cover.png
 ---
 
 # Bienvenido 
+
+```{r setup, include=FALSE}
+options(
+  htmltools.dir.version = FALSE, formatR.indent = 2, width = 55, digits = 4
+)
+# install the packages needed by this book; you fill out c(), e.g. c('ggplot2', 'dplyr')
+lapply(c(), function(pkg) {
+  if (system.file(package = pkg) == '') install.packages(pkg)
+})
+```
 
 ```{r echo=FALSE, out.width="33%"}
 knitr::include_graphics("images/cover.png")
