@@ -1,2 +1,0 @@
-# Comprobación de la adecuación del modelo {#resid}
-

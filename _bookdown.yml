@@ -1,10 +1,5 @@
-book_filename: analisis_de_regresion_con_R
-clean: [packages.bib, bookdown.bbl]
-output_dir: "docs"
+book_filename: "bookdown-demo"
 language:
-  label:
-    fig: "FIGURE "
-    tab: "TABLE "
   ui:
-    edit: "Edit"
     chapter_name: "Chapter "
+delete_merged_file: true
