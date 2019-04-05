@@ -1,3 +1,8 @@
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "[Get Started](https://bookdown.org/yihui/bookdown/get-started.html)" at https://bookdown.org/yihui/bookdown/ for how to compile this example into HTML. You may generate a copy of the book in `bookdown::pdf_book` format by calling `bookdown::render_book('index.Rmd', 'bookdown::pdf_book')`. More detailed instructions are available here https://bookdown.org/yihui/bookdown/build-the-book.html.
+## Análisis de Regresión con R
+[![Build Status](https://travis-ci.com/fhernanb/libro_regresion.svg?branch=master)](https://travis-ci.org/fhernanb/libro_regresion) 
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/.
+![alt text](figures/f0_front_scale.png)
+
+The text and code for the forthcoming O'Reilly book: [Efficient R programming](https://csgillespie.github.io/efficientR/). Pull requests and general comments are welcome.
+
+For details on how to build this book, please see the [Appendix](https://csgillespie.github.io/efficientR/building-the-book-from-source.html).
