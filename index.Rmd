@@ -31,11 +31,11 @@ lapply(c(), function(pkg) {
 
 # Prefacio {-}
 
-Este libro está destinado para estudiantes de ingeniería y estadística que deseen aprender la teoría sobre modelos de regresión y la forma de aplicarlos por medio de lenguage de programación \proglang{R}.
+Este libro está destinado para estudiantes de ingeniería y estadística que deseen aprender sobre modelos de regresión y la forma de aplicarlos por medio de lenguage de programación \proglang{R}.
 
 ## Estructura del libro {-}
 
-En el capítulo \@ref(rls) se presenta el modelo de regresión lineal simple y en el Capítulo \@ref(rlm) se generaliza el modelo básico a múltiples variables. El Capítulo \@ref(resid) muestra cómo se calculan los residuales en un modelo y la forma en que éstos permiten saber si el modelo está bien definido. En el capítulo \@ref(demos) se encuentran todas las demostraciones menciondas en el libro.
+En el capítulo \@ref(rls) se presenta el modelo de regresión lineal simple y en el Capítulo \@ref(rlm) se generaliza el modelo básico con varias covariables. El Capítulo \@ref(resid) muestra cómo se calculan los residuales en un modelo y la forma en que éstos permiten saber si el modelo está bien definido. En el capítulo \@ref(demos) se encuentran todas las demostraciones menciondas en el libro.
 
 ## Software information and conventions {-}
 

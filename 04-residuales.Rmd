@@ -1,13 +1,2 @@
 # Comprobación de la adecuación del modelo {#resid}
 
-## Definición de residuales
-Aquí el contenido de la sección.
-
-## Métodos para escalr residuales
-Aquí el contenido de la sección.
-
-## Gráficas de residuales
-Aquí el contenido de la sección.
-
-## Estadística PRESS
-Aquí el contenido de la sección.
