@@ -6,7 +6,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">analisis_de_regresion_con_R</a></li>
       after: |
-        <li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
+        <li><a href="https://fhernanb.github.io/" target="blank">Freddy Hernandez</a></li>
     download: [pdf, epub]
     edit: https://github.com/yihui/bookdown-crc/edit/master/%s
     sharing:
