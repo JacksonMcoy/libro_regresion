@@ -1,7 +1,7 @@
 ## Análisis de Regresión con R
 [![Build Status](https://travis-ci.com/fhernanb/libro_regresion.svg?branch=master)](https://travis-ci.org/fhernanb/libro_regresion) 
 
-![alt text](figures/f0_front_scale.png)
+![alt text](my_figures/cover.png)
 
 The text and code for the forthcoming O'Reilly book: [Efficient R programming](https://csgillespie.github.io/efficientR/). Pull requests and general comments are welcome.
 
