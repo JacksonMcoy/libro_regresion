@@ -2,7 +2,7 @@
 
 Mauricio Mazo Lopera es profesor xxxx de la Universidad Nacional de Colombia sede Medellín, adscrito a la Escuela de Estadística de la Facultad de Ciencias.
 
-mail: sucorreo@unal.edu.co
+mail: mamazol@unal.edu.co 
 
 
 \vspace{1cm}
@@ -10,6 +10,5 @@ mail: sucorreo@unal.edu.co
 Freddy Hernández Barajas es profesor asistente de la Universidad Nacional de Colombia sede Medellín, adscrito a la Escuela de Estadística de la Facultad de Ciencias.
 
 mail: fhernanb@unal.edu.co
-
 webpage: https://fhernanb.github.io/
 
