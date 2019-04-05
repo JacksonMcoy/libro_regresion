@@ -1,8 +1,6 @@
 --- 
 title: "Análisis de Regresión con R"
-author: |
-  | Mauricio Mazo Lopera
-  | Freddy Hernández Barajas
+author: ["Mauricio Mazo Lopera", "Freddy Hernandez"]
 date: "`r Sys.Date()`"
 documentclass: krantz
 fontsize: 10pt
@@ -13,9 +11,9 @@ colorlinks: yes
 lot: yes
 lof: yes
 site: bookdown::bookdown_site
-description: "A book example for a Chapman & Hall book."
-github-repo: yihui/bookdown-crc
-#cover-image: images/cover.jpg
+description: "Análisis de Regresión con R es un libro que explica como hacer modelación con R."
+github-repo: fhernanb/libro_regresion
+cover-image: images/cover.png
 ---
 
 ```{r setup, include=FALSE}
@@ -29,15 +27,19 @@ lapply(c(), function(pkg) {
 })
 ```
 
+```{r echo=FALSE, out.width="33%"}
+knitr::include_graphics("images/cover.png")
+```
+
 # Prefacio {-}
 
-Este libro está destinado para estudiantes de ingeniería y estadística que deseen aprender sobre modelos de regresión y la forma de aplicarlos por medio de lenguage de programación \proglang{R}.
+Este libro está destinado para estudiantes de ingeniería y estadística que deseen aprender sobre modelos de regresión y la forma de aplicarlos por medio de lenguage de programación R.
 
 ## Estructura del libro {-}
 
 En el capítulo \@ref(rls) se presenta el modelo de regresión lineal simple y en el Capítulo \@ref(rlm) se generaliza el modelo básico con varias covariables. El Capítulo \@ref(resid) muestra cómo se calculan los residuales en un modelo y la forma en que éstos permiten saber si el modelo está bien definido. En el capítulo \@ref(demos) se encuentran todas las demostraciones menciondas en el libro.
 
-## Software information and conventions {-}
+## Software y convenciones {-}
 
 Para realizar este libro usamos los paquetes **knitr**\index{knitr} [@xie2015] y **bookdown**\index{bookdown} [@R-bookdown] que permiten unir la ventajas de \LaTeX y \proglang{R} en un mismo archivo.
 

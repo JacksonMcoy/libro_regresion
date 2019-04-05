@@ -9,6 +9,6 @@ mail: mamazol@unal.edu.co
 
 Freddy Hernández Barajas es profesor asistente de la Universidad Nacional de Colombia sede Medellín, adscrito a la Escuela de Estadística de la Facultad de Ciencias.
 
-mail: fhernanb@unal.edu.co
+mail: fhernanb@unal.edu.co  
 webpage: https://fhernanb.github.io/
 

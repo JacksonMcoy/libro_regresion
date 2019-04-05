@@ -6,22 +6,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Análisis de Regresión con R</title>
-  <meta name="description" content="A book example for a Chapman &amp; Hall book.">
+  <meta name="description" content="Análisis de Regresión con R es un libro que explica como hacer modelación con R.">
   <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
   <meta property="og:title" content="Análisis de Regresión con R" />
   <meta property="og:type" content="book" />
   
-  
-  <meta property="og:description" content="A book example for a Chapman &amp; Hall book." />
-  <meta name="github-repo" content="yihui/bookdown-crc" />
+  <meta property="og:image" content="images/cover.png" />
+  <meta property="og:description" content="Análisis de Regresión con R es un libro que explica como hacer modelación con R." />
+  <meta name="github-repo" content="fhernanb/libro_regresion" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Análisis de Regresión con R" />
   
-  <meta name="twitter:description" content="A book example for a Chapman &amp; Hall book." />
-  
+  <meta name="twitter:description" content="Análisis de Regresión con R es un libro que explica como hacer modelación con R." />
+  <meta name="twitter:image" content="images/cover.png" />
 
+<meta name="author" content="Mauricio Mazo Lopera">
+<meta name="author" content="Freddy Hernandez">
 
 
 <meta name="date" content="2019-04-05">
@@ -105,7 +107,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prefacio</a><ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#estructura-del-libro"><i class="fa fa-check"></i>Estructura del libro</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#software-information-and-conventions"><i class="fa fa-check"></i>Software information and conventions</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#software-y-convenciones"><i class="fa fa-check"></i>Software y convenciones</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#bloques-informativos"><i class="fa fa-check"></i>Bloques informativos</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#agradecimientos"><i class="fa fa-check"></i>Agradecimientos</a></li>
 </ul></li>
@@ -146,19 +148,19 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
             <section class="normal" id="section-">
 <div id="header">
 <h1 class="title">Análisis de Regresión con R</h1>
-<p class="author"><em><div style="white-space: pre-line;">Mauricio Mazo Lopera
-Freddy Hernández Barajas</div></em></p>
+<p class="author"><em>Mauricio Mazo Lopera</em></p>
+<p class="author"><em>Freddy Hernandez</em></p>
 <p class="date"><em>2019-04-05</em></p>
 </div>
 <div id="prefacio" class="section level1 unnumbered">
 <h1>Prefacio</h1>
-<p>Este libro está destinado para estudiantes de ingeniería y estadística que deseen aprender sobre modelos de regresión y la forma de aplicarlos por medio de lenguage de programación .</p>
+<p>Este libro está destinado para estudiantes de ingeniería y estadística que deseen aprender sobre modelos de regresión y la forma de aplicarlos por medio de lenguage de programación R.</p>
 <div id="estructura-del-libro" class="section level2 unnumbered">
 <h2>Estructura del libro</h2>
 <p>En el capítulo <a href="rls.html#rls">2</a> se presenta el modelo de regresión lineal simple y en el Capítulo <a href="rlm.html#rlm">3</a> se generaliza el modelo básico con varias covariables. El Capítulo <a href="resid.html#resid">4</a> muestra cómo se calculan los residuales en un modelo y la forma en que éstos permiten saber si el modelo está bien definido. En el capítulo <a href="demos.html#demos">5</a> se encuentran todas las demostraciones menciondas en el libro.</p>
 </div>
-<div id="software-information-and-conventions" class="section level2 unnumbered">
-<h2>Software information and conventions</h2>
+<div id="software-y-convenciones" class="section level2 unnumbered">
+<h2>Software y convenciones</h2>
 <p>Para realizar este libro usamos los paquetes <strong>knitr</strong> <span class="citation">(Xie <a href="#ref-xie2015">2015</a>)</span> y <strong>bookdown</strong> <span class="citation">(Xie <a href="#ref-R-bookdown">2018</a>)</span> que permiten unir la ventajas de y  en un mismo archivo.</p>
 <p>En todo el libro se presentarán códigos que el lector puede copiar y pegar en su consola de  para obtener los mismos resultados aquí presentados. Los códigos se destacan en una caja de color beis (o beige) similar a la mostrada a continuación.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="dv">4</span> <span class="op">+</span><span class="st"> </span><span class="dv">6</span>
