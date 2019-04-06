@@ -34,3 +34,16 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
+
+```{block2, type='rmdnote'}
+Nota aclaratoria.
+```
+
+```{block2, type='rmdtip'}
+Sugerencia.
+```
+
+```{block2, type='rmdwarning'}
+Advertencia.
+```
+
