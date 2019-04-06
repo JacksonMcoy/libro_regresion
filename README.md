@@ -6,5 +6,5 @@
   <img src="images/cover.png" width="180">
 </p>
 
-
+El libro puede ser consultado en este [enlace](https://fhernanb.github.io/libro_regresion) 
 

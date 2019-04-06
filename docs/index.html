@@ -89,7 +89,7 @@ code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* Com
 code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 </style>
 
-<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="css\style.css" type="text/css" />
 </head>
 
 <body>
@@ -102,7 +102,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Análisis de Regresión con R</a></li>
+<li><a href="./">Analisis de Regresion con R</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Bienvenido</a><ul>
@@ -111,7 +111,6 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul></li>
 <li class="chapter" data-level="2" data-path="rls.html"><a href="rls.html"><i class="fa fa-check"></i><b>2</b> Regresión lineal simple</a></li>
 <li class="chapter" data-level="3" data-path="rlm.html"><a href="rlm.html"><i class="fa fa-check"></i><b>3</b> Regresión lineal múltiple</a></li>
-<li class="chapter" data-level="4" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>4</b> Final Words</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/fhernanb/libro_regresion" target="blank">Published with bookdown</a></li>
@@ -141,8 +140,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </div>
 <div id="bienvenido" class="section level1">
 <h1><span class="header-section-number">Chapter 1</span> Bienvenido</h1>
-<p><img src="images/cover.png" width="33%" /></p>
-<p>Este libro está destinado para estudiantes de ingeniería y estadística que deseen aprender sobre modelos de regresión y la forma de aplicarlos por medio de lenguage de programación R.</p>
+<p><img src="images/cover.png" width="33%" style="display: block; margin: auto;" /></p>
+<p>Este libro está destinado para estudiantes de ingeniería y estadística que deseen aprender sobre modelos de regresión y la forma de aplicarlos por medio de lenguaje de programación R.</p>
 <div id="estructura-del-libro" class="section level2 unnumbered">
 <h2>Estructura del libro</h2>
 <p>En el capítulo <a href="rls.html#rls">2</a> se presenta el modelo de regresión lineal simple y en el Capítulo <a href="rlm.html#rlm">3</a> se generaliza el modelo básico con varias covariables.</p>
@@ -150,7 +149,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="software-y-convenciones" class="section level2 unnumbered">
 <h2>Software y convenciones</h2>
 <p>Para realizar este libro usamos los paquetes <strong>knitr</strong> <span class="citation">(Xie <a href="#ref-xie2015">2015</a>)</span> y <strong>bookdown</strong> <span class="citation">(Xie <a href="#ref-R-bookdown">2018</a>)</span> que permiten unir la ventajas de LaTeX y R en un mismo archivo.</p>
-<p>En todo el libro se presentarán códigos que el lector puede copiar y pegar en su consola de R para obtener los mismos resultados aquí presentados. Los códigos se destacan en una caja de color similar a la mostrada a continuación.</p>
+<p>En todo el libro se presentarán códigos que el lector puede copiar y pegar en su consola de R para obtener los mismos resultados aquí del libro. Los códigos se destacan en una caja de color similar a la mostrada a continuación.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="dv">4</span> <span class="op">+</span><span class="st"> </span><span class="dv">6</span>
 a &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">5</span>, <span class="dv">6</span>)
 <span class="dv">5</span> <span class="op">*</span><span class="st"> </span>a
@@ -214,9 +213,9 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"download": null,
 "toc": {
-"collapse": "subsection"
+"collapse": "none"
 }
 });
 });

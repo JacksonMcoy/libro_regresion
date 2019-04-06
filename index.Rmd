@@ -32,7 +32,7 @@ lapply(c(), function(pkg) {
 knitr::include_graphics("images/cover.png")
 ```
 
-Este libro está destinado para estudiantes de ingeniería y estadística que deseen aprender sobre modelos de regresión y la forma de aplicarlos por medio de lenguage de programación R.
+Este libro está destinado para estudiantes de ingeniería y estadística que deseen aprender sobre modelos de regresión y la forma de aplicarlos por medio de lenguaje de programación R.
 
 ## Estructura del libro {-}
 
@@ -42,7 +42,7 @@ En el capítulo \@ref(rls) se presenta el modelo de regresión lineal simple y e
 
 Para realizar este libro usamos los paquetes **knitr**\index{knitr} [@xie2015] y **bookdown**\index{bookdown} [@R-bookdown] que permiten unir la ventajas de LaTeX y R en un mismo archivo.
 
-En todo el libro se presentarán códigos que el lector puede copiar y pegar en su consola de R para obtener los mismos resultados aquí presentados. Los códigos se destacan en una caja de color similar a la mostrada a continuación.
+En todo el libro se presentarán códigos que el lector puede copiar y pegar en su consola de R para obtener los mismos resultados aquí del libro. Los códigos se destacan en una caja de color similar a la mostrada a continuación.
 
 ```{r, eval=F}
 4 + 6
