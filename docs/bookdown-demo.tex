@@ -125,18 +125,18 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-04-06}
+    \date{2019-04-09}
 
 \usepackage{booktabs}
 
 % -------------------------------------------------------
-% Yo inclui esto para usar espanol
+  % Yo inclui esto para usar espanol
 \usepackage[spanish]{babel}
 \decimalpoint
 \selectlanguage{spanish}
 % -------------------------------------------------------
-
-\usepackage{amsthm}
+  
+  \usepackage{amsthm}
 \makeatletter
 \def\thm@space@setup{%
   \thm@preskip=8pt plus 2pt minus 4pt
@@ -150,67 +150,66 @@
 
 
 
-
-
+% -------------------------------------------------------
+  % Para crear el kframe
 \makeatletter
 \newenvironment{kframe}{%
-\medskip{}
-\setlength{\fboxsep}{.8em}
- \def\at@end@of@kframe{}%
- \ifinner\ifhmode%
+  \medskip{}
+  \setlength{\fboxsep}{.8em}
+  \def\at@end@of@kframe{}%
+  \ifinner\ifhmode%
   \def\at@end@of@kframe{\end{minipage}}%
   \begin{minipage}{\columnwidth}%
- \fi\fi%
- \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
- \colorbox{shadecolor}{##1}\hskip-\fboxsep
-     % There is no \\@totalrightmargin, so:
-     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
- \MakeFramed {\advance\hsize-\width
-   \@totalleftmargin\z@ \linewidth\hsize
-   \@setminipage}}%
- {\par\unskip\endMakeFramed%
- \at@end@of@kframe}
+  \fi\fi%
+  \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+  \colorbox{shadecolor}{##1}\hskip-\fboxsep
+    % There is no \\@totalrightmargin, so:
+      \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+  \MakeFramed {\advance\hsize-\width
+    \@totalleftmargin\z@ \linewidth\hsize
+    \@setminipage}}%
+{\par\unskip\endMakeFramed%
+  \at@end@of@kframe}
 \makeatother
 
 \renewenvironment{Shaded}{\begin{kframe}}{\end{kframe}}
 
 % -------------------------------------------------------
-% Para crear los bloques
+  % Para crear los bloques
 \newenvironment{rmdblock}[1]
-  {
+{
   \begin{itemize}
   \renewcommand{\labelitemi}{
     \raisebox{-.7\height}[0pt][0pt]{
       {\setkeys{Gin}{width=3em,keepaspectratio}\includegraphics{images/#1}}
+      }
+      }
+      \setlength{\fboxsep}{1em}
+      \begin{kframe}
+      \item
     }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{kframe}
-  \item
-  }
-  {
-  \end{kframe}
-  \end{itemize}
-  }
-\newenvironment{rmdnote}
-  {\begin{rmdblock}{note}}
-  {\end{rmdblock}}
-\newenvironment{rmdcaution}
-  {\begin{rmdblock}{caution}}
-  {\end{rmdblock}}
-\newenvironment{rmdimportant}
-  {\begin{rmdblock}{important}}
-  {\end{rmdblock}}
-\newenvironment{rmdtip}
-  {\begin{rmdblock}{tip}}
-  {\end{rmdblock}}
-\newenvironment{rmdwarning}
-  {\begin{rmdblock}{warning}}
-  {\end{rmdblock}}
-
+    {
+      \end{kframe}
+      \end{itemize}
+    }
+    \newenvironment{rmdnote}
+    {\begin{rmdblock}{note}}
+    {\end{rmdblock}}
+    \newenvironment{rmdcaution}
+    {\begin{rmdblock}{caution}}
+    {\end{rmdblock}}
+    \newenvironment{rmdimportant}
+    {\begin{rmdblock}{important}}
+    {\end{rmdblock}}
+    \newenvironment{rmdtip}
+    {\begin{rmdblock}{tip}}
+    {\end{rmdblock}}
+    \newenvironment{rmdwarning}
+    {\begin{rmdblock}{warning}}
+    {\end{rmdblock}}
+    
 % -------------------------------------------------------
 
-\let\BeginKnitrBlock\begin \let\EndKnitrBlock\end
 \begin{document}
 \maketitle
 
@@ -218,41 +217,60 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\chapter*{Prefacio}\label{prefacio}
-\addcontentsline{toc}{chapter}{Prefacio}
+\chapter*{Bienvenido}\label{bienvenido}
+\addcontentsline{toc}{chapter}{Bienvenido}
 
-This is a \emph{sample} book written in \textbf{Markdown}. You can use
-anything that Pandoc's Markdown supports, e.g., a math equation
-\(a^2 + b^2 = c^2\).
+\begin{center}\includegraphics[width=0.33\linewidth]{images/cover} \end{center}
 
-The \textbf{bookdown} package can be installed from CRAN or Github:
+Este libro está destinado para estudiantes de ingeniería y estadística
+que deseen aprender sobre modelos de regresión y la forma de aplicarlos
+por medio de lenguaje de programación R.
+
+\section*{Estructura del libro}\label{estructura-del-libro}
+\addcontentsline{toc}{section}{Estructura del libro}
+
+En el capítulo \ref{rls} se presenta el modelo de regresión lineal
+simple y en el Capítulo \ref{rlm} se generaliza el modelo básico con
+varias covariables.
+
+\section*{Software y convenciones}\label{software-y-convenciones}
+\addcontentsline{toc}{section}{Software y convenciones}
+
+Para realizar este libro usamos los paquetes \textbf{knitr}\index{knitr}
+\citep{xie2015} y \textbf{bookdown}\index{bookdown} \citep{R-bookdown}
+que permiten unir la ventajas de LaTeX y R en un mismo archivo.
+
+En todo el libro se presentarán códigos que el lector puede copiar y
+pegar en su consola de R para obtener los mismos resultados aquí del
+libro. Los códigos se destacan en una caja de color similar a la
+mostrada a continuación.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\KeywordTok{install.packages}\NormalTok{(}\StringTok{"bookdown"}\NormalTok{)}
-\CommentTok{# or the development version}
-\CommentTok{# devtools::install_github("rstudio/bookdown")}
+\DecValTok{4} \OperatorTok{+}\StringTok{ }\DecValTok{6}
+\NormalTok{a <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{5}\NormalTok{, }\DecValTok{6}\NormalTok{)}
+\DecValTok{5} \OperatorTok{*}\StringTok{ }\NormalTok{a}
+\DecValTok{1}\OperatorTok{:}\DecValTok{10}
 \end{Highlighting}
 \end{Shaded}
 
-Remember each Rmd file contains one and only one chapter, and a chapter
-is defined by the first-level heading \texttt{\#}.
+Los resultados o salidas obtenidos de cualquier código se destacan con
+dos símbolos de númeral (\texttt{\#\#}) al inicio de cada línea o
+renglón, esto quiere decir que todo lo que inicie con \texttt{\#\#} son
+resultados obtenidos y \textbf{NO} los debe copiar. Abajo se muestran
+los resultados obtenidos luego de correr el código anterior.
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to
-install TinyTeX (which includes XeLaTeX):
-\url{https://yihui.name/tinytex/}.
+\begin{verbatim}
+## [1] 10
+\end{verbatim}
 
-\BeginKnitrBlock{rmdnote}
-Nota aclaratoria.
-\EndKnitrBlock{rmdnote}
+\begin{verbatim}
+## [1]  5 25 30
+\end{verbatim}
 
-\BeginKnitrBlock{rmdtip}
-Sugerencia.
-\EndKnitrBlock{rmdtip}
-
-\BeginKnitrBlock{rmdwarning}
-Advertencia.
-\EndKnitrBlock{rmdwarning}
+\begin{verbatim}
+##  [1]  1  2  3  4  5  6  7  8  9 10
+\end{verbatim}
 
 \chapter{Regresión lineal simple}\label{rls}
 
