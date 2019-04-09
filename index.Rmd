@@ -18,7 +18,7 @@ description: "Libro de Modelos de Regresión con R para los estudiantes de la Es
 ```{r include=FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown', 'MASS'), 'packages.bib')
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'), 'packages.bib')
 ```
 
 ```{r echo=FALSE, out.width="33%", fig.align='center'}
@@ -68,12 +68,5 @@ Sugerencia.
 Advertencia.
 ```
 
-```{block2, type='rmdcaution'}
-Cuidado.
-```
-
-```{block2, type='rmdimportant'}
-Importante.
-```
 
 
