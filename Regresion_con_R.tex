@@ -136,7 +136,7 @@
 \selectlanguage{spanish}
 % -------------------------------------------------------
   
-  \usepackage{amsthm}
+\usepackage{amsthm}
 \makeatletter
 \def\thm@space@setup{%
   \thm@preskip=8pt plus 2pt minus 4pt
@@ -145,71 +145,34 @@
 \makeatother
 
 
-
-
-
-
-
 % -------------------------------------------------------
-  % Para crear el kframe
-\makeatletter
-\newenvironment{kframe}{%
-  \medskip{}
-  \setlength{\fboxsep}{.8em}
-  \def\at@end@of@kframe{}%
-  \ifinner\ifhmode%
-  \def\at@end@of@kframe{\end{minipage}}%
-  \begin{minipage}{\columnwidth}%
-  \fi\fi%
-  \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
-  \colorbox{shadecolor}{##1}\hskip-\fboxsep
-    % There is no \\@totalrightmargin, so:
-      \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
-  \MakeFramed {\advance\hsize-\width
-    \@totalleftmargin\z@ \linewidth\hsize
-    \@setminipage}}%
-{\par\unskip\endMakeFramed%
-  \at@end@of@kframe}
-\makeatother
-
-\renewenvironment{Shaded}{\begin{kframe}}{\end{kframe}}
-
-% -------------------------------------------------------
-  % Para crear los bloques
 \newenvironment{rmdblock}[1]
-{
+  {\begin{shaded*}
   \begin{itemize}
   \renewcommand{\labelitemi}{
     \raisebox{-.7\height}[0pt][0pt]{
       {\setkeys{Gin}{width=3em,keepaspectratio}\includegraphics{images/#1}}
-      }
-      }
-      \setlength{\fboxsep}{1em}
-      \begin{kframe}
-      \item
     }
-    {
-      \end{kframe}
-      \end{itemize}
-    }
-    \newenvironment{rmdnote}
-    {\begin{rmdblock}{note}}
-    {\end{rmdblock}}
-    \newenvironment{rmdcaution}
-    {\begin{rmdblock}{caution}}
-    {\end{rmdblock}}
-    \newenvironment{rmdimportant}
-    {\begin{rmdblock}{important}}
-    {\end{rmdblock}}
-    \newenvironment{rmdtip}
-    {\begin{rmdblock}{tip}}
-    {\end{rmdblock}}
-    \newenvironment{rmdwarning}
-    {\begin{rmdblock}{warning}}
-    {\end{rmdblock}}
+  }
+  \item
+  }
+  {
+  \end{itemize}
+  \end{shaded*}
+  }
+\newenvironment{rmdnote}
+  {\begin{rmdblock}{note}}
+  {\end{rmdblock}}
+\newenvironment{rmdtip}
+  {\begin{rmdblock}{tip}}
+  {\end{rmdblock}}
+\newenvironment{rmdwarning}
+  {\begin{rmdblock}{warning}}
+  {\end{rmdblock}}
     
 % -------------------------------------------------------
 
+\let\BeginKnitrBlock\begin \let\EndKnitrBlock\end
 \begin{document}
 \maketitle
 
@@ -272,6 +235,33 @@ los resultados obtenidos luego de correr el código anterior.
 ##  [1]  1  2  3  4  5  6  7  8  9 10
 \end{verbatim}
 
+\section*{Bloques informativos}\label{bloques-informativos}
+\addcontentsline{toc}{section}{Bloques informativos}
+
+En varias partes del libro usaremos bloques informativos para resaltar
+algún aspecto importante. Abajo se encuentra un ejemplo de los bloques y
+su significado.
+
+\BeginKnitrBlock{rmdnote}
+Nota aclaratoria.
+\EndKnitrBlock{rmdnote}
+
+\BeginKnitrBlock{rmdtip}
+Sugerencia.
+\EndKnitrBlock{rmdtip}
+
+\BeginKnitrBlock{rmdwarning}
+Advertencia.
+\EndKnitrBlock{rmdwarning}
+
+\BeginKnitrBlock{rmdcaution}
+Cuidado.
+\EndKnitrBlock{rmdcaution}
+
+\BeginKnitrBlock{rmdimportant}
+Importante.
+\EndKnitrBlock{rmdimportant}
+
 \chapter{Regresión lineal simple}\label{rls}
 
 You can label chapter and section titles using \texttt{\{\#label\}}
@@ -291,7 +281,7 @@ Figures and tables with captions will be placed in \texttt{figure} and
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{bookdown-demo_files/figure-latex/nice-fig-1} 
+{\centering \includegraphics[width=0.8\linewidth]{Regresion_con_R_files/figure-latex/nice-fig-1} 
 
 }
 
