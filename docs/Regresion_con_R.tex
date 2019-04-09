@@ -144,6 +144,35 @@
 }
 \makeatother
 
+
+% -------------------------------------------------------
+\newenvironment{rmdblock}[1]
+  {\begin{shaded*}
+  \begin{itemize}
+  \renewcommand{\labelitemi}{
+    \raisebox{-.7\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=3em,keepaspectratio}\includegraphics{images/#1}}
+    }
+  }
+  \item
+  }
+  {
+  \end{itemize}
+  \end{shaded*}
+  }
+\newenvironment{rmdnote}
+  {\begin{rmdblock}{note}}
+  {\end{rmdblock}}
+\newenvironment{rmdtip}
+  {\begin{rmdblock}{tip}}
+  {\end{rmdblock}}
+\newenvironment{rmdwarning}
+  {\begin{rmdblock}{warning}}
+  {\end{rmdblock}}
+    
+% -------------------------------------------------------
+
+\let\BeginKnitrBlock\begin \let\EndKnitrBlock\end
 \begin{document}
 \maketitle
 
@@ -205,6 +234,25 @@ los resultados obtenidos luego de correr el código anterior.
 \begin{verbatim}
 ##  [1]  1  2  3  4  5  6  7  8  9 10
 \end{verbatim}
+
+\section*{Bloques informativos}\label{bloques-informativos}
+\addcontentsline{toc}{section}{Bloques informativos}
+
+En varias partes del libro usaremos bloques informativos para resaltar
+algún aspecto importante. Abajo se encuentra un ejemplo de los bloques y
+su significado.
+
+\BeginKnitrBlock{rmdnote}
+Nota aclaratoria.
+\EndKnitrBlock{rmdnote}
+
+\BeginKnitrBlock{rmdtip}
+Sugerencia.
+\EndKnitrBlock{rmdtip}
+
+\BeginKnitrBlock{rmdwarning}
+Advertencia.
+\EndKnitrBlock{rmdwarning}
 
 \chapter{Regresión lineal simple}\label{rls}
 
