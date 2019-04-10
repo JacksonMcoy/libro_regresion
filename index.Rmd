@@ -1,6 +1,6 @@
 --- 
 title: "Modelos de Regresión con R"
-author: ["Freddy Hernández", "Maruricio Mazo"]
+author: ["Freddy Hernández", "Mauricio Mazo"]
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
