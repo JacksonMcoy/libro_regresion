@@ -25,7 +25,7 @@ knitr::write_bib(c(
 knitr::include_graphics("images/cover.png")
 ```
 
-Este libro está destinado para estudiantes de ingeniería y estadística que deseen aprender sobre modelos de regresión y la forma de aplicarlos por medio de lenguaje de programación R.
+Este libro está destinado para estudiantes de ingeniería y estadística que deseen aprender sobre modelos de regresión y la forma de aplicarlos por medio del lenguaje de programación R.
 
 ## Estructura del libro {-}
 
